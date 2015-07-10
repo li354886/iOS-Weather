@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		623638FD1B4F548C00229EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623638FC1B4F548C00229EE5 /* AppDelegate.swift */; };
+		623639001B4F548C00229EE5 /* Weahter_v4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 623638FE1B4F548C00229EE5 /* Weahter_v4.xcdatamodeld */; };
+		623639021B4F548C00229EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623639011B4F548C00229EE5 /* ViewController.swift */; };
+		623639051B4F548C00229EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623639031B4F548C00229EE5 /* Main.storyboard */; };
+		623639071B4F548C00229EE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623639061B4F548C00229EE5 /* Images.xcassets */; };
+		6236390A1B4F548C00229EE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 623639081B4F548C00229EE5 /* LaunchScreen.xib */; };
+		623639161B4F548C00229EE5 /* Weahter_v4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623639151B4F548C00229EE5 /* Weahter_v4Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		623639101B4F548C00229EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 623638EF1B4F548C00229EE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 623638F61B4F548C00229EE5;
+			remoteInfo = Weahter_v4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		623638F71B4F548C00229EE5 /* Weahter_v4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weahter_v4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		623638FB1B4F548C00229EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623638FC1B4F548C00229EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		623638FF1B4F548C00229EE5 /* Weahter_v4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weahter_v4.xcdatamodel; sourceTree = "<group>"; };
+		623639011B4F548C00229EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		623639041B4F548C00229EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		623639061B4F548C00229EE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		623639091B4F548C00229EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6236390F1B4F548C00229EE5 /* Weahter_v4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Weahter_v4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		623639141B4F548C00229EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623639151B4F548C00229EE5 /* Weahter_v4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weahter_v4Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		623638F41B4F548C00229EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6236390C1B4F548C00229EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		623638EE1B4F548C00229EE5 = {
+			isa = PBXGroup;
+			children = (
+				623638F91B4F548C00229EE5 /* Weahter_v4 */,
+				623639121B4F548C00229EE5 /* Weahter_v4Tests */,
+				623638F81B4F548C00229EE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		623638F81B4F548C00229EE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				623638F71B4F548C00229EE5 /* Weahter_v4.app */,
+				6236390F1B4F548C00229EE5 /* Weahter_v4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		623638F91B4F548C00229EE5 /* Weahter_v4 */ = {
+			isa = PBXGroup;
+			children = (
+				623638FC1B4F548C00229EE5 /* AppDelegate.swift */,
+				623639011B4F548C00229EE5 /* ViewController.swift */,
+				623639031B4F548C00229EE5 /* Main.storyboard */,
+				623639061B4F548C00229EE5 /* Images.xcassets */,
+				623639081B4F548C00229EE5 /* LaunchScreen.xib */,
+				623638FE1B4F548C00229EE5 /* Weahter_v4.xcdatamodeld */,
+				623638FA1B4F548C00229EE5 /* Supporting Files */,
+			);
+			path = Weahter_v4;
+			sourceTree = "<group>";
+		};
+		623638FA1B4F548C00229EE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				623638FB1B4F548C00229EE5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		623639121B4F548C00229EE5 /* Weahter_v4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				623639151B4F548C00229EE5 /* Weahter_v4Tests.swift */,
+				623639131B4F548C00229EE5 /* Supporting Files */,
+			);
+			path = Weahter_v4Tests;
+			sourceTree = "<group>";
+		};
+		623639131B4F548C00229EE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				623639141B4F548C00229EE5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		623638F61B4F548C00229EE5 /* Weahter_v4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623639191B4F548C00229EE5 /* Build configuration list for PBXNativeTarget "Weahter_v4" */;
+			buildPhases = (
+				623638F31B4F548C00229EE5 /* Sources */,
+				623638F41B4F548C00229EE5 /* Frameworks */,
+				623638F51B4F548C00229EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weahter_v4;
+			productName = Weahter_v4;
+			productReference = 623638F71B4F548C00229EE5 /* Weahter_v4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6236390E1B4F548C00229EE5 /* Weahter_v4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6236391C1B4F548C00229EE5 /* Build configuration list for PBXNativeTarget "Weahter_v4Tests" */;
+			buildPhases = (
+				6236390B1B4F548C00229EE5 /* Sources */,
+				6236390C1B4F548C00229EE5 /* Frameworks */,
+				6236390D1B4F548C00229EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				623639111B4F548C00229EE5 /* PBXTargetDependency */,
+			);
+			name = Weahter_v4Tests;
+			productName = Weahter_v4Tests;
+			productReference = 6236390F1B4F548C00229EE5 /* Weahter_v4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		623638EF1B4F548C00229EE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Zhengning Li";
+				TargetAttributes = {
+					623638F61B4F548C00229EE5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6236390E1B4F548C00229EE5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 623638F61B4F548C00229EE5;
+					};
+				};
+			};
+			buildConfigurationList = 623638F21B4F548C00229EE5 /* Build configuration list for PBXProject "Weahter_v4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 623638EE1B4F548C00229EE5;
+			productRefGroup = 623638F81B4F548C00229EE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				623638F61B4F548C00229EE5 /* Weahter_v4 */,
+				6236390E1B4F548C00229EE5 /* Weahter_v4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		623638F51B4F548C00229EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623639051B4F548C00229EE5 /* Main.storyboard in Resources */,
+				6236390A1B4F548C00229EE5 /* LaunchScreen.xib in Resources */,
+				623639071B4F548C00229EE5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6236390D1B4F548C00229EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		623638F31B4F548C00229EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623639021B4F548C00229EE5 /* ViewController.swift in Sources */,
+				623639001B4F548C00229EE5 /* Weahter_v4.xcdatamodeld in Sources */,
+				623638FD1B4F548C00229EE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6236390B1B4F548C00229EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623639161B4F548C00229EE5 /* Weahter_v4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		623639111B4F548C00229EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 623638F61B4F548C00229EE5 /* Weahter_v4 */;
+			targetProxy = 623639101B4F548C00229EE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		623639031B4F548C00229EE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				623639041B4F548C00229EE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		623639081B4F548C00229EE5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				623639091B4F548C00229EE5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		623639171B4F548C00229EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		623639181B4F548C00229EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6236391A1B4F548C00229EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Weahter_v4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6236391B1B4F548C00229EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Weahter_v4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6236391D1B4F548C00229EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Weahter_v4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weahter_v4.app/Weahter_v4";
+			};
+			name = Debug;
+		};
+		6236391E1B4F548C00229EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Weahter_v4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weahter_v4.app/Weahter_v4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		623638F21B4F548C00229EE5 /* Build configuration list for PBXProject "Weahter_v4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623639171B4F548C00229EE5 /* Debug */,
+				623639181B4F548C00229EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623639191B4F548C00229EE5 /* Build configuration list for PBXNativeTarget "Weahter_v4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6236391A1B4F548C00229EE5 /* Debug */,
+				6236391B1B4F548C00229EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6236391C1B4F548C00229EE5 /* Build configuration list for PBXNativeTarget "Weahter_v4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6236391D1B4F548C00229EE5 /* Debug */,
+				6236391E1B4F548C00229EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		623638FE1B4F548C00229EE5 /* Weahter_v4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				623638FF1B4F548C00229EE5 /* Weahter_v4.xcdatamodel */,
+			);
+			currentVersion = 623638FF1B4F548C00229EE5 /* Weahter_v4.xcdatamodel */;
+			path = Weahter_v4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 623638EF1B4F548C00229EE5 /* Project object */;
+}
